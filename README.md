@@ -21,7 +21,7 @@ RSS Feed Creator – A program which can read in text from other sources and put
 
 Post it Notes Program – A program where you can add text reminders and post them. You can have the program also add popup reminders.
 
-Quote Tracker (market symbols etc) – A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked and the program can show green up and red down arrows to show which direction the stock value has moved.
+✓ Quote Tracker (market symbols etc) – A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked and the program can show green up and red down arrows to show which direction the stock value has moved.
 
 Guestbook / Journal – A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box.
 
