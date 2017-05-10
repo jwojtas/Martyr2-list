@@ -21,13 +21,14 @@ def bton():
   stocks = e1.get()
   stock_list = list(map(str,stocks.split()))
   x=0
+  t1.delete('1.0', END)
   while x < len(stock_list):
-    data = ystockquote.get_price_book(stock_list[x-1])
-    txt = "Current price for {0}: ${1} \n".format(stock_list[x-1],data)
+    data = ystockquote.get_price_book(stock_list[x])
+    txt = "Current price for {0}: ${1} \n".format(stock_list[x],data)
     txt1 = "--------------------------- \n"
-    t1.insert(END, txt)
+    t1.insert(INSERT, txt)
     x+=1
   threading.Timer(900,bton).start()
-  t1.insert(END,txt1)
+  t1.insert(INSERT,txt1)
   
 top.mainloop()
