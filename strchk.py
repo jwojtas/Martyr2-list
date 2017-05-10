@@ -1,4 +1,4 @@
-
+ 
 fill = input("Enter File name:")
 f = open(fill, "r")
 data = f.read()
